@@ -1,16 +1,35 @@
-# todo_app
+# ✅ Todo App (Flutter & RESTful API)
+This project was my hands-on exploration of RESTful API integration in Flutter. Using an online API service ([swagger](https://api.nstack.in/swagger)),  This project focuses on smooth UI rendering, optimized data fetching, and error handling, ensuring a great user experience. However, since the API does not persist data, every time the internet is reconnected, the app starts fresh.
 
-A new Flutter project.
+<br></br>
+## Features
+✅ CRUD Operations – Uses GET, POST, PUT, and DELETE requests to manage tasks <br>
+✅ Optimized UI Rendering – Prevents unnecessary rebuilds using MediaQuery.sizeOf()<br>
+✅ Async Data Handling – Implements FutureBuilder for fetching and displaying todos<br>
+✅ Error Prevention – Handles RenderFlex issues caused by keyboard insets using ViewInsets<br>
+✅ User-Friendly Interface – Clean, simple, and easy to use
 
-## Getting Started
+## Technologies Used
+ - Flutter (UI Framework)
+ - Dart (Programming Language)
+ - RESTful API ([swagger](https://api.nstack.in/swagger))
 
-This project is a starting point for a Flutter application.
+## App ScreenShots
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/user-attachments/assets/20f68155-b8ca-4251-962f-ebabd804be9b" width="300" />
+<img src="https://github.com/user-attachments/assets/180ce279-37cb-44cd-a4ad-c717fcec4fac" width="300" />
+<img src="https://github.com/user-attachments/assets/6d939496-88be-4741-97d7-85d95e8554f2" width="300" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Installation
+step-1. Clone the repository
+ - git clone https://github.com/zinzala/flutter-To-do-app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+step-2. Navigate to the project directory
+ - todo_app
+  
+step-3. Install dependencies
+ - flutter pub get
+
+step-4. Run the app
+ - flutter run
+
